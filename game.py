@@ -35,9 +35,9 @@ class Game:
 
         if p1 == p2:
             return -1
-        elif (p1 == "Rock" and p2 == "Scissors") or \
-             (p1 == "Scissors" and p2 == "Paper") or \
-             (p1 == "Paper" and p2 == "Rock"):
+        elif (p1 == "바위" and p2 == "가위") or \
+             (p1 == "가위" and p2 == "보") or \
+             (p1 == "보" and p2 == "바위"):
             return 0
         else:
             return 1
